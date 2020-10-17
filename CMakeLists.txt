@@ -871,6 +871,7 @@ option(ALSOFT_REQUIRE_WINMM "Require Windows Multimedia backend" OFF)
 option(ALSOFT_REQUIRE_DSOUND "Require DirectSound backend" OFF)
 option(ALSOFT_REQUIRE_WASAPI "Require WASAPI backend" OFF)
 if(WIN32)
+    # commented because there was issue with windows CI on github
     #set(WINSDK_LIB_DIRS )
     #set(WINSDK_INCLUDE_DIRS )
     #find_package(WindowsSDK)
